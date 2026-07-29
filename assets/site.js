@@ -1,0 +1,1 @@
+const t=document.querySelector('.nav-toggle'),n=document.querySelector('nav');if(t&&n)t.onclick=()=>{const o=n.classList.toggle('open');t.setAttribute('aria-expanded',o)};

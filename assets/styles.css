@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=League+Spartan:wght@500;600;700;800&display=swap");
+:root{--terracotta:#A94B2A;--deep:#8F3B21;--brown:#3A2117;--cream:#F2E2C9;--soft:#F8EEDF;--line:rgba(58,33,23,.22);--max:1180px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--soft);color:var(--brown);font-family:Inter,Arial,sans-serif;line-height:1.55}a{color:inherit}.container{width:min(calc(100% - 36px),var(--max));margin:auto}.site-header{position:sticky;top:0;z-index:20;background:rgba(169,75,42,.97);color:var(--cream);border-bottom:1px solid rgba(242,226,201,.2)}.header-inner{min-height:86px;display:flex;align-items:center;justify-content:space-between;gap:34px}.logo{text-decoration:none;min-width:235px}.logo-main{display:block;font-family:'League Spartan',sans-serif;font-size:1.55rem;font-weight:800;line-height:.95}.logo-sub{display:flex;align-items:center;gap:10px;margin-top:7px;font-size:.88rem;font-weight:700}.nav-toggle{display:none;border:1px solid var(--cream);background:transparent;color:var(--cream);padding:8px 12px;border-radius:6px}nav ul{display:flex;align-items:center;gap:26px;margin:0;padding:0;list-style:none}nav a{text-decoration:none;font-family:'League Spartan',sans-serif;font-weight:700}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 24px;border:2px solid currentColor;border-radius:7px;text-decoration:none;font-family:'League Spartan',sans-serif;font-weight:800}.btn-cream{background:var(--soft);color:var(--deep);border-color:var(--soft)}.btn-outline{color:var(--cream)}.btn-rust{background:var(--terracotta);color:var(--soft);border-color:var(--terracotta)}.hero{background:var(--terracotta);color:var(--cream)}.hero-grid{min-height:calc(100vh - 86px);display:grid;grid-template-columns:1.05fr .95fr}.hero-copy{padding:76px 42px 70px 0;display:flex;flex-direction:column;justify-content:center}.hero-kicker,.hero-title,.hero-tagline,h1,h2,h3{font-family:'League Spartan',sans-serif}.hero-kicker{margin:0;color:var(--brown);font-size:clamp(2rem,4vw,4.2rem);line-height:.95;font-weight:800;text-transform:uppercase}.hero-title{margin:0;font-size:clamp(3.4rem,7vw,7rem);line-height:.88;font-weight:800;text-transform:uppercase}.hero-rule{width:64px;height:3px;background:var(--cream);margin:30px 0 22px}.hero-tagline{margin:0 0 28px;color:var(--brown);font-size:clamp(2rem,4vw,4rem);line-height:.96;font-weight:800;text-transform:uppercase}.socials{display:flex;gap:18px;margin-top:22px}.socials a{width:38px;height:38px;display:grid;place-items:center;border:1px solid rgba(242,226,201,.7);border-radius:50%;text-decoration:none;font-weight:800}.hero-photo{min-height:640px;position:relative;background:linear-gradient(to top,rgba(58,33,23,.35),transparent 40%),linear-gradient(135deg,rgba(242,226,201,.08),rgba(58,33,23,.12)),url('../images/hero-photo.jpg') center/cover no-repeat}.hero-photo:after,.intro-photo:after{position:absolute;background:rgba(58,33,23,.8);color:var(--cream);padding:12px 14px;text-align:center;font-size:.82rem}.hero-photo:after{content:'Add your campaign portrait as images/hero-photo.jpg';left:24px;right:24px;bottom:24px}.intro{padding:72px 0}.intro-grid{display:grid;grid-template-columns:1fr .9fr;gap:58px;align-items:center}.intro-lead{font-size:clamp(1.35rem,2.1vw,2rem);line-height:1.28;font-weight:700}.intro-lead strong{color:var(--deep)}.intro-photo{min-height:320px;border-radius:10px;background:linear-gradient(135deg,rgba(169,75,42,.1),rgba(58,33,23,.08)),url('../images/intro-photo.jpg') center/cover no-repeat;border:1px solid var(--line);position:relative}.intro-photo:after{content:'Add a community photo as images/intro-photo.jpg';left:18px;right:18px;bottom:18px}.priorities{padding:76px 0 86px;border-top:1px solid var(--line)}.title-row{display:flex;align-items:center;gap:24px;margin-bottom:40px}.title-row:before,.title-row:after{content:'';flex:1;height:2px;background:var(--terracotta)}.title-row h2{margin:0;font-size:clamp(2.2rem,4vw,4rem);line-height:1;text-transform:uppercase;text-align:center}.priority-grid{display:grid;grid-template-columns:repeat(4,1fr)}.priority{padding:8px 28px;text-align:center;border-right:1px solid var(--line)}.priority:last-child{border-right:0}.check{width:48px;height:48px;margin:0 auto 16px;border:3px solid var(--terracotta);border-radius:50%;position:relative}.check:after{content:'';position:absolute;width:20px;height:10px;border-left:4px solid var(--brown);border-bottom:4px solid var(--brown);transform:rotate(-45deg);left:12px;top:13px}.priority h3{margin:0 0 12px;color:var(--deep);font-size:1.55rem;line-height:1;text-transform:uppercase}.donate-strip{padding:48px 0 54px;background:var(--terracotta);color:var(--cream)}.donate-grid{display:grid;grid-template-columns:auto 1fr;gap:26px;align-items:center}.heart{width:82px;height:82px;border:3px solid var(--cream);border-radius:50%;display:grid;place-items:center;font-size:2.25rem}.donate-strip h2{margin:0 0 20px;font-size:clamp(2.4rem,5vw,4.6rem);line-height:.94;text-transform:uppercase}.amounts{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}.amount{min-height:48px;background:var(--soft);color:var(--deep);border-radius:999px;text-decoration:none;display:grid;place-items:center;font:800 1.1rem 'League Spartan',sans-serif}.vote{padding:34px 0 68px;background:var(--terracotta)}.vote-banner{min-height:340px;position:relative;overflow:hidden;border-radius:14px;background:linear-gradient(90deg,rgba(32,17,11,.82),rgba(32,17,11,.08)),url('../images/vote-photo.jpg') center/cover no-repeat}.vote-content{width:min(520px,90%);padding:46px 40px;color:var(--soft)}.vote-content h2{margin:0 0 14px;font-size:clamp(2.6rem,5vw,5rem);line-height:.9;text-transform:uppercase}.page-hero{padding:92px 0 58px;background:var(--terracotta);color:var(--cream)}.page-hero h1{margin:0;font-size:clamp(3.5rem,7vw,7rem);line-height:.9;text-transform:uppercase}.page-section{padding:74px 0}.prose{max-width:800px;font-size:1.08rem}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.card{padding:28px;border:1px solid var(--line);background:var(--cream);border-radius:10px}.site-footer{padding:36px 0;background:var(--brown);color:var(--cream)}.footer-inner{display:flex;justify-content:space-between;gap:28px}.small{font-size:.86rem;opacity:.8}@media(max-width:980px){.nav-toggle{display:block}nav{display:none;position:absolute;top:86px;left:0;right:0;background:var(--deep);padding:18px}nav.open{display:block}nav ul{flex-direction:column;align-items:stretch}.hero-grid,.intro-grid{grid-template-columns:1fr}.hero-copy{padding-right:0}.priority-grid{grid-template-columns:repeat(2,1fr)}.amounts{grid-template-columns:repeat(3,1fr)}}@media(max-width:620px){.header-inner{min-height:76px}.logo{min-width:0}.logo-main{font-size:1.15rem}nav{top:76px}.hero-copy{padding:58px 0 42px}.hero-photo{min-height:390px}.priority-grid{grid-template-columns:1fr}.priority{border-right:0;border-bottom:1px solid var(--line);padding-bottom:28px;margin-bottom:28px}.title-row:before,.title-row:after{display:none}.donate-grid{grid-template-columns:1fr}.amounts{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.footer-inner{flex-direction:column}}
+
+
+/* ===== V3 HEADER ===== */
+.header-inner{
+  display:grid;
+  grid-template-columns:minmax(210px,auto) 1fr auto;
+  align-items:center;
+  gap:28px;
+}
+.header-actions{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:15px;
+}
+.header-socials{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.header-socials a{
+  width:34px;
+  height:34px;
+  display:grid;
+  place-items:center;
+  border:1px solid rgba(242,226,201,.62);
+  border-radius:50%;
+  color:var(--cream);
+  text-decoration:none;
+  font-family:'League Spartan',sans-serif;
+  font-weight:800;
+  font-size:.82rem;
+}
+.header-socials a:hover{
+  background:var(--cream);
+  color:var(--deep);
+}
+.header-donate{
+  min-width:132px;
+  min-height:52px;
+  padding-inline:28px;
+  font-size:1rem;
+}
+.site-header nav{
+  justify-self:center;
+}
+.site-header nav ul{
+  gap:22px;
+}
+
+/* ===== PRIORITIES INDEX PAGE ===== */
+.priorities-shell{
+  padding:64px 0 90px;
+  background:var(--soft);
+}
+.priorities-layout{
+  display:grid;
+  grid-template-columns:280px minmax(0,1fr);
+  gap:64px;
+  align-items:start;
+}
+.priority-index{
+  position:sticky;
+  top:118px;
+}
+.priority-index-label{
+  margin:0 0 16px;
+  color:var(--deep);
+  font-family:'League Spartan',sans-serif;
+  font-size:.86rem;
+  font-weight:800;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+}
+.priority-index ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  border-top:1px solid rgba(169,75,42,.7);
+}
+.priority-index li{
+  border-bottom:1px solid rgba(169,75,42,.7);
+}
+.priority-index a{
+  display:block;
+  padding:17px 0;
+  text-decoration:none;
+  color:var(--deep);
+  font-family:'League Spartan',sans-serif;
+  font-weight:800;
+  font-size:1rem;
+  text-transform:uppercase;
+  letter-spacing:.01em;
+}
+.priority-index a:hover,
+.priority-index a:focus{
+  color:var(--terracotta);
+  padding-left:8px;
+}
+.priority-detail{
+  scroll-margin-top:125px;
+  padding:0 0 60px;
+  margin:0 0 55px;
+  border-bottom:1px solid var(--line);
+}
+.priority-detail:last-child{
+  border-bottom:0;
+  margin-bottom:0;
+}
+.priority-detail .eyebrow{
+  margin:0 0 5px;
+  color:var(--terracotta);
+  font-family:'League Spartan',sans-serif;
+  font-size:1rem;
+  font-weight:800;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+}
+.priority-detail h2{
+  margin:0 0 24px;
+  color:#0d447f;
+  font-size:clamp(2.7rem,5vw,5.1rem);
+  line-height:.92;
+  letter-spacing:-.02em;
+}
+.priority-detail p,
+.priority-detail li{
+  font-size:1.08rem;
+  line-height:1.62;
+}
+.priority-detail p{
+  margin:0 0 20px;
+}
+.priority-detail ul{
+  margin:18px 0 0;
+  padding-left:24px;
+}
+.priority-detail li{
+  margin-bottom:9px;
+}
+.priority-intro{
+  max-width:900px;
+  margin:0 0 50px;
+  font-size:1.13rem;
+}
+.priority-anchor-title{
+  display:flex;
+  align-items:center;
+  gap:16px;
+}
+.priority-anchor-title .check{
+  flex:0 0 auto;
+  margin:0;
+}
+
+/* Retain current campaign palette on the priorities page */
+.priorities-page .page-hero{
+  padding-bottom:42px;
+}
+.priorities-page .page-hero p{
+  max-width:760px;
+  margin:18px 0 0;
+  color:var(--cream-dark);
+  font-size:1.1rem;
+}
+
+@media(max-width:1100px){
+  .header-inner{
+    grid-template-columns:auto 1fr auto;
+    gap:18px;
+  }
+  .site-header nav ul{gap:15px}
+  .header-socials{display:none}
+}
+@media(max-width:980px){
+  .header-inner{
+    display:flex;
+    justify-content:space-between;
+  }
+  .site-header nav{
+    justify-self:auto;
+  }
+  .header-actions{
+    margin-left:auto;
+  }
+  .header-actions .header-donate{
+    display:none;
+  }
+  .priorities-layout{
+    grid-template-columns:1fr;
+    gap:38px;
+  }
+  .priority-index{
+    position:static;
+  }
+  .priority-index ul{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:0 22px;
+  }
+}
+@media(max-width:620px){
+  .priority-index ul{
+    grid-template-columns:1fr;
+  }
+  .priority-detail h2{
+    font-size:2.55rem;
+  }
+}
+
+
+/* ===== V4 INTERACTIONS ===== */
+.btn,
+.amount,
+.header-socials a,
+.socials a,
+.priority-card,
+.card,
+.priority-index a,
+.site-header nav a {
+  transition:
+    transform .22s ease,
+    background-color .22s ease,
+    color .22s ease,
+    border-color .22s ease,
+    box-shadow .22s ease,
+    filter .22s ease;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  transform: translateY(-3px) scale(1.045);
+  filter: brightness(1.06);
+  box-shadow: 0 12px 28px rgba(58, 33, 23, .18);
+}
+
+.amount:hover,
+.amount:focus-visible {
+  transform: translateY(-2px) scale(1.065);
+  background: #fff7eb;
+  box-shadow: 0 10px 22px rgba(58, 33, 23, .16);
+}
+
+.header-socials a:hover,
+.header-socials a:focus-visible,
+.socials a:hover,
+.socials a:focus-visible {
+  transform: translateY(-2px) scale(1.12);
+  background: var(--cream-soft);
+  color: var(--terracotta-deep);
+  border-color: var(--cream-soft);
+}
+
+.priority-card:hover,
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 34px rgba(58, 33, 23, .10);
+}
+
+.priority-card:hover .check {
+  background: var(--terracotta);
+  border-color: var(--terracotta);
+}
+.priority-card:hover .check::after {
+  border-color: var(--cream-soft);
+}
+
+.site-header nav a {
+  position: relative;
+  display: inline-block;
+}
+.site-header nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: -7px;
+  height: 2px;
+  background: var(--cream);
+  transition: right .22s ease;
+}
+.site-header nav a:hover::after,
+.site-header nav a:focus-visible::after,
+.site-header nav a[aria-current="page"]::after {
+  right: 0;
+}
+.site-header nav a:hover,
+.site-header nav a:focus-visible {
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.priority-index a:hover,
+.priority-index a:focus-visible {
+  transform: translateX(7px);
+  color: var(--terracotta);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+/* ===== EXPANDED PRIORITIES ===== */
+.priority-detail h2 {
+  color: var(--terracotta-deep);
+}
+.priority-index {
+  max-height: calc(100vh - 140px);
+  overflow-y: auto;
+  padding-right: 12px;
+}
+.priority-index::-webkit-scrollbar { width: 7px; }
+.priority-index::-webkit-scrollbar-thumb {
+  background: rgba(169,75,42,.35);
+  border-radius: 999px;
+}
+.priority-group-title {
+  margin: 34px 0 10px;
+  color: var(--terracotta);
+  font-family: "League Spartan", sans-serif;
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+.priority-group-title:first-of-type { margin-top: 0; }
+
+.priority-index li.group-start {
+  margin-top: 14px;
+  border-top: 2px solid var(--terracotta);
+}
+
+
+/* ===== V5 FOUR-PILLAR PLATFORM ===== */
+.priority-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.priority-link:hover,
+.priority-link:focus-visible {
+  transform: translateY(-7px) scale(1.015);
+  box-shadow: 0 18px 36px rgba(58, 33, 23, .12);
+  text-decoration: none;
+}
+.priority-link:hover h3,
+.priority-link:focus-visible h3 {
+  color: var(--terracotta);
+}
+.priority-pillar {
+  scroll-margin-top: 120px;
+}
+.priority-pillar + .priority-pillar {
+  margin-top: 28px;
+}
+.priority-pillar ul {
+  margin-top: 22px;
+}
+.priority-pillar li {
+  margin-bottom: 12px;
+}
